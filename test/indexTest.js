@@ -2,6 +2,7 @@ const expect = chai.expect;
 const currentUser = 'Grace Hopper';
 const welcomeMessage = `Welcome to Flatbook, ${currentUser}!`;
 const excitedWelcomeMessage = welcomeMessage.toUpperCase();
+const shortGreeting = `Welcome, ${currentUser}`;
 
 describe('index.js', () => {
   describe('currentUser', () => {
